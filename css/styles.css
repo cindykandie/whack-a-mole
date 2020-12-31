@@ -1,0 +1,46 @@
+* {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+#time-left {
+  color: red;
+}
+
+.grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 618px;
+  height: 618px;
+  margin: auto;
+}
+
+.grid .square {
+  width: 200px;
+  height: 200px;
+  border: 3px solid black;
+}
+
+.mole {
+  background-image: radial-gradient(#121280, black, yellow, red, pink, white);
+  background-size: cover;
+}
+/*# sourceMappingURL=styles.css.map */

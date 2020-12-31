@@ -1,0 +1,31 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+#time-left{
+    color: red;
+    
+}
+.grid{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 618px;
+    height: 618px;
+    margin: auto;
+.square{
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+}
+}
+.mole{
+    background-image: radial-gradient(rgb(18, 18, 128),black,yellow,red,pink,white);
+    background-size: cover;
+}
